@@ -9,10 +9,13 @@ function bubbleSort(arr) {
   }
   return arr;
 }
+swap(firstEle, secondEle);
 
 function toCompare(firstEle, secondEle, arr) {
   if (firstEle > secondEle) {
-    swap(firstEle, secondEle);
+    return true;
+  } else {
+    return false;
   }
 }
 
